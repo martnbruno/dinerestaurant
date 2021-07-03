@@ -131,14 +131,14 @@ header h3 {
     text-align: center;
   }
   header h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
   }
   header h3 {
     font-size: 1.3em;
     text-align: center;
     width: 16em;
-    margin-top: 2.5em;
+    margin-top: 1.5em;
   }
 }
 
@@ -175,14 +175,14 @@ header h3 {
     text-align: center;
   }
   header h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
   }
   header h3 {
     font-size: 1.4em;
     text-align: center;
     width: 16em;
-    margin-top: 2.5em;
+    margin-top: 2em;
   }
 }
 
