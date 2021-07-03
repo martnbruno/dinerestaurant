@@ -37,7 +37,7 @@ header h3 {
 /* Media Queries */
 
 /* Iphone 5/SE */
-@media only screen and (min-width: 320px) and (max-width: 360px) {
+@media only screen and (min-width: 320px) and (max-width: 360px) and (orientation: portrait) {
   header {
     padding: 2em;
     background-attachment: initial;
@@ -57,9 +57,27 @@ header h3 {
     width: 13em;
   }
 }
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
+  header {
+    padding: 0;
+    font-size: 1em;
+  }
+  #dine-header {
+    margin: 0 0 1em 1.2em;
+    font-size: 1.5em;
+  }
+  header h2 {
+    margin: 0 0 0 1em;
+    font-size: 1.5em;
+  }
 
+  header h3 {
+    font-size: 1em;
+    margin: 0.9em 0 0.2em 2em;
+  }
+}
 /* Moto G4 */
-@media only screen and (min-width: 360px) and (max-width: 375px) {
+@media only screen and (min-width: 360px) and (max-width: 375px) and (orientation: portrait) {
   header {
     padding: 2em;
     background-attachment: initial;
@@ -70,18 +88,39 @@ header h3 {
     text-align: center;
   }
   header h2 {
-    font-size: 2em;
+    font-size: 2.4em;
     text-align: center;
   }
   header h3 {
     font-size: 1.3em;
     text-align: center;
-    width: 13em;
+    width: 17em;
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 640px) and (orientation: landscape) {
+  header {
+    padding: 0;
+    font-size: 1em;
+  }
+  #dine-header {
+    margin: 1em 0 1em 1.2em;
+    font-size: 1.5em;
+  }
+  header h2 {
+    margin: 0.5em 0 0 1em;
+    font-size: 2em;
+  }
+
+  header h3 {
+    font-size: 1em;
+    margin-left: 2em;
   }
 }
 
 /* Iphone 6/7/8 */
-@media only screen and (min-width: 375px) and (max-width: 667px) {
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: portrait) {
   header {
     padding: 2em;
     background-attachment: initial;
@@ -92,25 +131,90 @@ header h3 {
     text-align: center;
   }
   header h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
   }
   header h3 {
     font-size: 1.3em;
     text-align: center;
-    width: 14em;
+    width: 16em;
+    margin-top: 2.5em;
   }
 }
 
-/* Ipad */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape) {
+  header {
+    padding: 0;
+    font-size: 1em;
+  }
+  #dine-header {
+    margin: 1em 0 1em 1.2em;
+    font-size: 1.5em;
+  }
+  header h2 {
+    margin: 0.5em 0 0 1em;
+    font-size: 2em;
+  }
+
+  header h3 {
+    font-size: 1.2em;
+    margin-left: 1.9em;
+  }
+}
+
+/* Iphone X */
+
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: portrait) {
   header {
     padding: 2em;
     background-attachment: initial;
     align-items: center;
   }
   #dine-header {
-    font-size: 5em;
+    font-size: 4em;
+    text-align: center;
+  }
+  header h2 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  header h3 {
+    font-size: 1.4em;
+    text-align: center;
+    width: 16em;
+    margin-top: 2.5em;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 812px) and (orientation: landscape) {
+  header {
+    padding: 0;
+    font-size: 1em;
+  }
+  #dine-header {
+    margin: 1em 0 1em 1.2em;
+    font-size: 1.5em;
+  }
+  header h2 {
+    margin: 0.5em 0 0 1em;
+    font-size: 2em;
+  }
+
+  header h3 {
+    font-size: 1.2em;
+    margin-left: 1.9em;
+  }
+}
+
+/* Ipad */
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  header {
+    padding: 2em;
+    background-attachment: initial;
+    align-items: center;
+  }
+  #dine-header {
+    font-size: 7em;
     text-align: center;
   }
   header h2 {
@@ -118,14 +222,22 @@ header h3 {
     text-align: center;
   }
   header h3 {
-    font-size: 2.3em;
+    font-size: 2.1em;
     text-align: center;
-    width: 19em;
+    width: 21em;
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape
+) {
+  header h3{
+    margin-top: 1em;
   }
 }
 
 /* Ipad Pro */
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
   header {
     padding: 2em;
     background-attachment: initial;
@@ -142,6 +254,13 @@ header h3 {
   header h3 {
     font-size: 3em;
     text-align: center;
-    width: 19em;
+    width: 21em;
+    margin-top: 2em;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+  header h3 {
+    margin-top: 2em;
+    font-size: 2.2em;
   }
 }
