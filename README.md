@@ -1,17 +1,10 @@
-Header
+# D i n e 
 
-header h1 4em
-header h3 2em
-logo 3em
+### 1. Clone this Repo
+https://github.com/m-bruno/dinerestaurant.git
 
-media 
+### 2. Install dependencies
+npm install
 
-header h1 2em
-header h3 1.3em
-logo 2
-
-Card
-
-h1, h2, image size none
-
-media
+### 3. Run React dev server (http://localhost:3000)
+npm start
