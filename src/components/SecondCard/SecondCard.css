@@ -1,0 +1,148 @@
+.secondcard-container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  justify-content: center;
+  margin: 2em;
+}
+
+.secondcard-image {
+  grid-column-start: 2;
+  justify-self: start;
+}
+
+.secondcard-title-container {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  justify-self: end;
+}
+.secondcard-title-container h1 {
+  font-weight: bold;
+  max-width: 11em;
+}
+.secondcard-title-container h3 {
+  max-width: 24em;
+  margin-right: 1em;
+}
+.secondcard-button {
+  margin-top: 2em;
+}
+
+/* Media Queries */
+
+/* Iphone 5/SE */
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  .secondcard-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .secondcard-title-container {
+    text-align: center;
+    margin-top: 1em;
+  }
+  .secondcard-title-container h1 {
+    max-width: 11em;
+  }
+  .secondcard-title-container h3 {
+    font-size: 1.2em;
+    width: 13em;
+    margin: 0;
+  }
+  .btn-lg {
+    font-size: 1em;
+  }
+}
+/* Moto G4 */
+@media only screen and (min-width: 360px) and (max-width: 375px) {
+  .secondcard-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .secondcard-title-container {
+    text-align: center;
+    margin-top: 1em;
+  }
+  .secondcard-title-container h1 {
+    max-width: 11em;
+  }
+  .secondcard-title-container h3 {
+    font-size: 1.2em;
+    width: 15em;
+    margin: 0;
+  }
+  .btn-lg {
+    font-size: 1em;
+  }
+}
+/* Iphone 6/7/8 */
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .secondcard-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .secondcard-title-container {
+    text-align: center;
+    margin-top: 1em;
+  }
+  .secondcard-title-container h1 {
+    max-width: 11em;
+  }
+  .secondcard-title-container h3 {
+    font-size: 1.2em;
+    width: 16em;
+    margin: 0;
+  }
+  .btn-lg {
+    font-size: 1em;
+  }
+}
+/* Ipad */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .secondcard-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .secondcard-title-container {
+    text-align: center;
+    margin-top: 1em;
+  }
+  .secondcard-title-container h1 {
+    max-width: 17em;
+    font-size: 2.5em;
+  }
+  .secondcard-title-container h3 {
+    text-align: center;
+    font-size: 1.7em;
+  }
+  .btn-lg {
+    font-size: 1.5em;
+  }
+}
+
+/* Ipad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .secondcard-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .secondcard-title-container {
+    text-align: center;
+    margin-top: 1em;
+  }
+  .secondcard-title-container h1 {
+    max-width: 20em;
+    font-size: 3em;
+  }
+  .secondcard-title-container h3 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .btn-lg {
+    font-size: 2em;
+  }
+}

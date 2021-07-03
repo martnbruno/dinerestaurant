@@ -1,0 +1,123 @@
+#pre-footer {
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 15em;
+  color: white;
+}
+
+#pre-footer h1 {
+  margin: 3em 0 0 2em;
+  font-size: 2em;
+}
+
+#pre-footer-button {
+  margin: 2.9em 0 0 4em;
+  font-size: 2em;
+}
+
+/* Media Queries */
+
+/* Iphone 5/SE */
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  #pre-footer {
+    display: flex;
+    flex-direction: column;
+    height: 15em;
+  }
+
+  #pre-footer h1 {
+    font-size: 1.1em;
+  }
+
+  #pre-footer-button {
+    font-size: 0.9em;
+    margin: 1em;
+    align-self: center;
+  }
+}
+
+/* Moto G4 */
+@media only screen and (min-width: 360px) and (max-width: 375px) {
+  #pre-footer h1 {
+    display: flex;
+    flex-direction: column;
+    height: 1em;
+    font-size: 1.2em;
+  }
+
+  #pre-footer-button {
+    font-size: 0.8em;
+    margin: 1em;
+    align-self: center;
+  }
+}
+/* Iphone 6/7/8 */
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  #pre-footer {
+    display: flex;
+    flex-direction: column;
+    height: 15em;
+  }
+
+  #pre-footer h1 {
+    font-size: 1.5em;
+    width: 15em;
+    margin: 0;
+    align-self: center;
+    justify-content: flex-end;
+  }
+
+  #pre-footer-button {
+    font-size: 1em;
+    margin: 1em;
+    align-self: center;
+  }
+}
+/* Ipad */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #pre-footer {
+    display: flex;
+    flex-direction: column;
+    height: 25em;
+  }
+
+  #pre-footer h1 {
+    font-size: 2em;
+    width: 15em;
+    margin: 0;
+    align-self: center;
+    justify-content: flex-end;
+  }
+
+  #pre-footer-button {
+    font-size: 1.2em;
+    margin: 1em;
+    align-self: center;
+  }
+}
+
+/* Ipad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  #pre-footer {
+    display: flex;
+    flex-direction: column;
+    height: 30em;
+  }
+
+  #pre-footer h1 {
+    font-size: 3em;
+    width: 15em;
+    margin: 0;
+    align-self: center;
+    justify-content: flex-end;
+  }
+
+  #pre-footer-button {
+    font-size: 1.2em;
+    margin: 1em;
+    align-self: center;
+  }
+}

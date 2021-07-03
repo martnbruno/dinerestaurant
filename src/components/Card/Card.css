@@ -1,0 +1,150 @@
+.size {
+  max-width: 800px;
+}
+
+.rounded {
+  box-shadow: 1em 1em 2em black;
+}
+
+.mx-auto {
+  margin: 0;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  margin: 2em;
+}
+
+.card-image {
+  grid-column-start: 1;
+  margin: 1.5em;
+  justify-self: end;
+}
+
+.title-container {
+  grid-column-start: 2;
+  justify-self: start;
+}
+
+.title-container h1 {
+  font-weight: bold;
+  max-width: 10em;
+}
+
+.title-container h3 {
+  max-width: 23em;
+}
+
+/* Media Queries */
+
+/* Iphone 5/SE */
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1em;
+  }
+  .title-container {
+    text-align: center;
+  }
+
+  .title-container h1 {
+    max-width: 11em;
+  }
+
+  .title-container h3 {
+    font-size: 1.2em;
+    text-align: center;
+  }
+}
+
+/* Moto G4 */
+@media only screen and (min-width: 360px) and (max-width: 375px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1em;
+  }
+  .title-container {
+    text-align: center;
+    margin: 0;
+  }
+
+  .title-container h1 {
+    max-width: 12em;
+    font-size: 1.5em;
+    margin-left: 1em;
+  }
+
+  .title-container h3 {
+    font-size: 1.1em;
+    text-align: center;
+  }
+}
+/* Iphone 6/7/8 */
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1em;
+  }
+  .title-container {
+    text-align: center;
+  }
+
+  .title-container h3 {
+    font-size: 1.2em;
+    text-align: center;
+  }
+}
+/* Ipad */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1em;
+  }
+  .title-container {
+    text-align: center;
+  }
+
+  .title-container h1 {
+    max-width: 17em;
+    font-size: 2.5em;
+  }
+
+  .title-container h3 {
+    text-align: center;
+    font-size: 1.7em;
+  }
+}
+
+/* Ipad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1em;
+  }
+  .title-container {
+    text-align: center;
+  }
+
+  .title-container h1 {
+    max-width: 20em;
+    font-size: 3em;
+  }
+
+  .title-container h3 {
+    font-size: 2em;
+    text-align: center;
+  }
+}

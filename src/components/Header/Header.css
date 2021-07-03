@@ -1,0 +1,146 @@
+header {
+  padding: 3em;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 80vh;
+}
+#dine-header {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 4px;
+  font-size: 3em;
+}
+#dine-header:focus {
+  text-decoration: none;
+}
+header h2 {
+  color: white;
+  margin-top: 2em;
+  font-size: 4em;
+  font-weight: bold;
+  max-width: 10em;
+}
+
+header h3 {
+  color: white;
+  font-size: 2em;
+  margin: 1em 0 1em 0;
+  max-width: 25em;
+}
+
+/* Media Queries */
+
+/* Iphone 5/SE */
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  header {
+    padding: 2em;
+    background-attachment: initial;
+    align-items: center;
+  }
+  #dine-header {
+    font-size: 3em;
+    text-align: center;
+  }
+  header h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  header h3 {
+    font-size: 1.3em;
+    text-align: center;
+    width: 13em;
+  }
+}
+
+/* Moto G4 */
+@media only screen and (min-width: 360px) and (max-width: 375px) {
+  header {
+    padding: 2em;
+    background-attachment: initial;
+    align-items: center;
+  }
+  #dine-header {
+    font-size: 3em;
+    text-align: center;
+  }
+  header h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  header h3 {
+    font-size: 1.3em;
+    text-align: center;
+    width: 13em;
+  }
+}
+
+/* Iphone 6/7/8 */
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  header {
+    padding: 2em;
+    background-attachment: initial;
+    align-items: center;
+  }
+  #dine-header {
+    font-size: 3em;
+    text-align: center;
+  }
+  header h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  header h3 {
+    font-size: 1.3em;
+    text-align: center;
+    width: 14em;
+  }
+}
+
+/* Ipad */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    padding: 2em;
+    background-attachment: initial;
+    align-items: center;
+  }
+  #dine-header {
+    font-size: 5em;
+    text-align: center;
+  }
+  header h2 {
+    font-size: 4em;
+    text-align: center;
+  }
+  header h3 {
+    font-size: 2.3em;
+    text-align: center;
+    width: 19em;
+  }
+}
+
+/* Ipad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  header {
+    padding: 2em;
+    background-attachment: initial;
+    align-items: center;
+  }
+  #dine-header {
+    font-size: 7em;
+    text-align: center;
+  }
+  header h2 {
+    font-size: 6em;
+    text-align: center;
+  }
+  header h3 {
+    font-size: 3em;
+    text-align: center;
+    width: 19em;
+  }
+}

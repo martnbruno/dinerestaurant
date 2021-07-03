@@ -1,0 +1,51 @@
+#container {
+  color: black;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  margin: 0;
+  align-items: center;
+}
+
+#reservation {
+  padding: 1em;
+  background-color: white;
+  box-shadow: 1em 1em 1em black;
+  width: 33em;
+  justify-content: flex-end;
+}
+
+.cancel {
+  color: red;
+  cursor: pointer;
+}
+
+/* Media Queries */
+
+/* Iphone 5/SE */
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  #reservation {
+    width: 19em;
+  }
+}
+
+/* Moto G4 */
+@media only screen and (min-width: 360px) and (max-width: 375px) {
+  #reservation {
+    width: 19em;
+  }
+}
+/* Iphone 6/7/8 */
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+  #reservation {
+    width: 19em;
+  }
+}
+/* Ipad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  #reservation {
+    width: 30em;
+  }
+}
