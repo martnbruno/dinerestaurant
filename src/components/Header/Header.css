@@ -169,7 +169,6 @@ header h3 {
     padding: 2em;
     background-attachment: initial;
     align-items: center;
-    
   }
   #dine-header {
     font-size: 4em;
@@ -192,9 +191,9 @@ header h3 {
     padding: 0;
     font-size: 1em;
     background-repeat: no-repeat;
-    background-attachment:initial;
-    background-position:initial;
-    background-size:cover;
+    background-attachment: initial;
+    background-position: initial;
+    background-size: cover;
   }
   #dine-header {
     margin: 1em 0 1em 1.2em;
@@ -234,9 +233,14 @@ header h3 {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape
-) {
-  header h3{
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  header {
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-position: initial;
+    background-size: cover;
+  }
+  header h3 {
     margin-top: 1em;
   }
 }
