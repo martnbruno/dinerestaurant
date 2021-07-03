@@ -240,7 +240,13 @@ header h3 {
     background-position: initial;
     background-size: cover;
   }
+
   header h3 {
+    margin-top: 1em;
+    font-size: 2.2em;
+  }
+
+  header h2 {
     margin-top: 1em;
   }
 }
@@ -271,5 +277,9 @@ header h3 {
   header h3 {
     margin-top: 2em;
     font-size: 2.2em;
+  }
+
+  header h2 {
+    margin-top: 1em;
   }
 }
