@@ -349,7 +349,6 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* padding-bottom: 1em; */
   }
   .grid-title h1 {
     max-width: 18em;
