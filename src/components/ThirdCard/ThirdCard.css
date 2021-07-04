@@ -214,7 +214,7 @@
   }
 }
 /* Iphone 6/7/8 */
-@media only screen and (min-width: 375px) and (max-width: 667px) {
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: portrait) {
   #third-card {
     display: flex;
     flex-direction: column;
@@ -272,6 +272,67 @@
     font-size: 1.2em;
   }
 }
+
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape) {
+  #third-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .grid-title h1 {
+    max-width: 17em;
+  }
+
+  .grid-title h3 {
+    width: 24em;
+    font-size: 1.4em;
+  }
+  #third-card img {
+    max-width: 16em;
+    margin: 2em 0 1em 3.5em;
+  }
+
+  .salmon-flex {
+    flex-direction: column;
+    text-align: center;
+    width: 21em;
+    margin: 0;
+  }
+  .salmon-flex-title {
+    margin-top: 1em;
+  }
+  .salmon-flex-title h4 {
+    font-size: 1.2em;
+  }
+  .filet-flex {
+    flex-direction: column;
+    text-align: center;
+    width: 21em;
+    margin: 0;
+  }
+  .filet-flex-title {
+    margin-top: 1em;
+  }
+
+  .filet-flex-title h4 {
+    font-size: 1.2em;
+  }
+
+  .mousse-flex {
+    flex-direction: column;
+    text-align: center;
+    width: 21em;
+    margin: 0;
+  }
+  .mousse-flex-title {
+    margin-top: 1em;
+  }
+  .mousse-flex-title h4 {
+    font-size: 1.2em;
+  }
+}
+
 /* Ipad */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   #third-card {
@@ -281,7 +342,7 @@
     /* padding-bottom: 1em; */
   }
   .grid-title h1 {
-    max-width: 16em;
+    max-width: 18em;
     font-size: 2.5em;
   }
   .grid-title h3 {

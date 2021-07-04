@@ -31,7 +31,6 @@
 
 .title-container h1 {
   font-weight: bold;
-  max-width: 10em;
 }
 
 .title-container h3 {
@@ -101,6 +100,7 @@
   .title-container h3 {
     font-size: 1.2em;
     text-align: center;
+    max-width: 25em;
   }
 }
 /* Ipad */

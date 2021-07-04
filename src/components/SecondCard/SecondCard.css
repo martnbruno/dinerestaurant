@@ -88,7 +88,7 @@
     margin-top: 1em;
   }
   .secondcard-title-container h1 {
-    max-width: 11em;
+    max-width: 15em;
   }
   .secondcard-title-container h3 {
     font-size: 1.2em;
@@ -97,6 +97,12 @@
   }
   .btn-lg {
     font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation:landscape) {
+  .secondcard-title-container h3 {
+    width: 25em;
   }
 }
 /* Ipad */
