@@ -41,17 +41,17 @@ footer li {
 /* Media Queries */
 
 /* Iphone 5/SE */
-@media only screen and (min-width: 320px) and (max-width: 360px) {
+@media only screen and (min-width: 320px) and (max-width: 360px) and (orientation: portrait) {
   footer {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     margin: 0;
     height: auto;
   }
 
   footer h1 {
     margin: 0;
-    font-size: 1.7em;
+    font-size: 1em;
     margin: 0.5em 0 0.5em 0;
   }
 
@@ -61,15 +61,18 @@ footer li {
     flex-direction: column;
   }
 
+  footer li {
+    letter-spacing: 0;
+  }
   .location {
     padding: 0;
-    font-size: 0.7em;
+    font-size: 0.5em;
     margin: 0.5em;
   }
 
   .open-times {
     padding: 0;
-    font-size: 0.7em;
+    font-size: 0.5em;
     margin: 0.5em 0 0.5em 0;
   }
 }
@@ -78,14 +81,14 @@ footer li {
 @media only screen and (min-width: 360px) and (max-width: 375px) {
   footer {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     margin: 0;
     height: auto;
   }
 
   footer h1 {
     margin: 0;
-    font-size: 2em;
+    font-size: 1em;
     margin: 0.5em 0 0.5em 0;
   }
 
@@ -97,13 +100,13 @@ footer li {
 
   .location {
     padding: 0;
-    font-size: 0.7em;
+    font-size: 0.5em;
     margin: 0.5em;
   }
 
   .open-times {
     padding: 0;
-    font-size: 0.7em;
+    font-size: 0.5em;
     margin: 0.5em 0 0.5em 0;
   }
 }
@@ -111,14 +114,14 @@ footer li {
 @media only screen and (min-width: 375px) and (max-width: 667px) {
   footer {
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
     margin: 0;
     height: auto;
   }
 
   footer h1 {
     margin: 0;
-    font-size: 2em;
+    font-size: 1em;
     margin: 0.5em 0 0.5em 0;
   }
 
@@ -130,13 +133,13 @@ footer li {
 
   .location {
     padding: 0;
-    font-size: 0.7em;
+    font-size: 0.5em;
     margin: 0.5em;
   }
 
   .open-times {
     padding: 0;
-    font-size: 0.7em;
+    font-size: 0.5em;
     margin: 0.5em 0 0.5em 0;
   }
 }
@@ -144,7 +147,43 @@ footer li {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   footer {
     display: flex;
+    justify-content: space-between;
+    margin: 0;
+    height: auto;
+  }
+
+  footer h1 {
+    margin: 0;
+    font-size: 2em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0.5em;
+  }
+
+  footer ul {
+    margin: 0;
+    display: flex;
     flex-direction: column;
+  }
+
+  .location {
+    padding: 0;
+    font-size: 1.2em;
+    padding: 0.5em;
+  }
+
+  .open-times {
+    padding: 0;
+    font-size: 1.2em;
+    margin: 0.5em 0.5em 0.5em 0;
+    padding: 0.5em;
+  }
+}
+
+/* Ipad Pro */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
+  footer {
+    display: flex;
+    justify-content: space-evenly;
     margin: 0;
     height: auto;
   }
@@ -164,44 +203,34 @@ footer li {
   .location {
     padding: 0;
     font-size: 1.5em;
-    margin: 0.5em;
   }
 
   .open-times {
     padding: 0;
     font-size: 1.5em;
-    margin: 0.5em 0 0.5em 0;
+    margin-right: 0.5em;
   }
 }
 
 /* Ipad Pro */
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
   footer {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    height: auto;
+    justify-content: space-evenly;
   }
-
   footer h1 {
     margin: 0;
-    font-size: 4em;
-    margin: 0.5em 0 0.5em 0;
+    font-size: 3em;
+    margin: 0.5em 0 0.5em 0.5em;
   }
-
-  footer ul {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-  }
-
   .location {
     padding: 0;
-    font-size: 1.7em;
+    font-size: 1.5em;
+    margin-right: 3em;
   }
 
   .open-times {
     padding: 0;
-    font-size: 1.7em;
+    font-size: 1.5em;
+    margin-right: 0.5em;
   }
 }
