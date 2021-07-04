@@ -16,6 +16,7 @@ footer h1 {
   align-self: center;
   justify-self: center;
   margin-left: 2em;
+  font-size: 2.7em;
 }
 
 footer ul {
@@ -27,6 +28,7 @@ footer ul {
 
 .location {
   grid-column-start: 2;
+  padding: 0;
 }
 
 .open-times {
@@ -35,7 +37,7 @@ footer ul {
 
 footer li {
   letter-spacing: 2px;
-  align-self: center;
+  align-self:center
 }
 
 /* Media Queries */
@@ -167,13 +169,13 @@ footer li {
 
   .location {
     padding: 0;
-    font-size: 1.2em;
+    font-size: 1em;
     padding: 0.5em;
   }
 
   .open-times {
     padding: 0;
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 0.5em 0.5em 0.5em 0;
     padding: 0.5em;
   }
@@ -202,12 +204,12 @@ footer li {
 
   .location {
     padding: 0;
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   .open-times {
     padding: 0;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-right: 0.5em;
   }
 }
@@ -224,13 +226,13 @@ footer li {
   }
   .location {
     padding: 0;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-right: 3em;
   }
 
   .open-times {
     padding: 0;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-right: 0.5em;
   }
 }
