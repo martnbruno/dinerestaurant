@@ -100,11 +100,24 @@
   }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation:landscape) {
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: landscape) {
   .secondcard-title-container h3 {
     width: 25em;
   }
 }
+
+/* Iphone 6/7/8 Plus */
+@media only screen and (min-width: 414px) and (max-width: 736px) and (orientation: portrait) {
+  .secondcard-title-container h1 {
+    max-width: 12em;
+  }
+  .secondcard-title-container h3 {
+    font-size: 1.2em;
+    width: 18em;
+    margin: 0;
+  }
+}
+
 /* Ipad */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .secondcard-container {
